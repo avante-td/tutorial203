@@ -6,3 +6,15 @@ python manage.py makemigrations polls
 python manage.py migrate
 python manage.py createsuperuser
 
+
+#enviar para o github
+git init
+#definir o .gitignore
+git add --all .
+git commit -m "Início."
+git remote add origin https://github.com/avante-td/tutorial203.git
+git push -u origin master
+
+#baixar do github
+git clone https://github.com/avante-td/tutorial203 .
+
